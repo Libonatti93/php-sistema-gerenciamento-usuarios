@@ -1,0 +1,14 @@
+Basic System Structure
+Technologies used:
+
+PHP for the backend.
+MySQL for the database.
+HTML and CSS for the frontend.
+
+
+System Explanation
+Registration: The register.php file allows you to create a new user account. It checks if the email is already registered before entering the data into the database.
+Login: The login.php file allows the user to log in to the system. It verifies the email and password using password_verify().
+Dashboard: The dashboard.php file is the main panel for logged in users, showing a link to edit the profile and log out.
+Profile Edit: The edit_profile.php file allows the user to update their name and password.
+Logout: The logout.php file ends the user's session, logging them out of the system.
